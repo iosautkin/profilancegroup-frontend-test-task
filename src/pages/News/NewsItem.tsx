@@ -58,7 +58,7 @@ export function NewsItem({
         </div>
       }
     >
-      <p>
+      <p className="news-item__text">
         {text}
       </p>
       <p className="news-item__date">
