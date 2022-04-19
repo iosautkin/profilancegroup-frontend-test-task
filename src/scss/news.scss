@@ -1,0 +1,36 @@
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  &__column {
+    padding: 30px;
+    flex-basis: 50%;
+    @media screen and (max-width: 900px) {
+      flex-basis: 100%;
+    }
+  }
+  &__toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 20px;
+  }
+}
+
+.news-item {
+  display: flex;
+  justify-content: space-between;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    &-buttons {
+      display: flex;
+      align-items: center;
+      font-weight: normal;
+    }
+  }
+  &__date {
+    color: grey;
+    text-align: right;
+    margin-bottom: 0;
+  }
+}

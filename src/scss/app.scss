@@ -1,0 +1,49 @@
+.header {
+  background-color: white;
+  display: flex;
+
+  &__logo-link {
+    display: flex;
+    align-items: center;
+  }
+  &__logo {
+    height: 48px;
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
+    &_mobile {
+      height: 64px;
+      display: none;
+      @media screen and (max-width: 900px) {
+        display: block;
+      }
+    }
+  }
+  &__menu {
+    margin-left: 20px;
+    flex-grow: 1;
+  }
+
+  &__login {
+    margin-left: auto;
+  }
+
+  &__home-menu-item {
+    @media screen and (max-width: 480px) {
+      display: none !important;
+    }
+  }
+}
+
+  
+.content {
+  padding: 0 50px;
+  min-height: 100vh;
+  &__inner {
+    min-height: 500px;
+    padding: 30px;
+    background: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
