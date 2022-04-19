@@ -1,4 +1,4 @@
-## Тестовое задание от Profilance Groug на React разработчика
+## Выполненное тестовое задание на frontend-разработчика от Profilance Group
 
 Тестовое задание: [https://github.com/profilancegroup/frontend-test-task](https://github.com/profilancegroup/frontend-test-task)
 
