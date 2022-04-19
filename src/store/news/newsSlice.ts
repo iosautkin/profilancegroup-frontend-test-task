@@ -112,6 +112,8 @@ export const newsSlice = createSlice({
 
 export const { increment, incrementByAmount } = newsSlice.actions;
 
+// вообще, конечно, фильтрацию стоит делать на бекенде,
+// чтобы было невозможно программно получить доступ к недоступной инфомации
 export const selectAvailableNews = (state: RootState) => {
   const role = state.auth.user?.role;
   if (role === 'admin') return state.news.news;
