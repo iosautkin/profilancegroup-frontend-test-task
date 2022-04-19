@@ -6,6 +6,6 @@
 
 Стек: React, Redux Toolkit, React Router, Lodash, Ant Design, SCSS (именование по БЭМ), Typescript, ESLint
 
-Пользователь: пароль
-Admin: admin_password
+Пользователь: пароль  
+Admin: admin_password  
 User: user_password
