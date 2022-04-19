@@ -2,8 +2,6 @@
 
 Тестовое задание: [https://github.com/profilancegroup/frontend-test-task](https://github.com/profilancegroup/frontend-test-task)
 
-Задеплоенная версия: [https://iosautkin.github.io/profilancegroup-frontend-test-task](https://iosautkin.github.io/profilancegroup-frontend-test-task)
-
 Запуск:  
     npm install  
     npm start  
