@@ -4,6 +4,10 @@
 
 Задеплоенная версия: [https://iosautkin.github.io/profilancegroup-frontend-test-task](https://iosautkin.github.io/profilancegroup-frontend-test-task)
 
+Запуск:  
+    npm install  
+    npm start  
+
 Стек: React, Redux Toolkit, React Router, Lodash, Ant Design, SCSS (именование по БЭМ), Typescript, ESLint
 
 Пользователь: пароль  
